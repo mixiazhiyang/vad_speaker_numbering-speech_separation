@@ -1,0 +1,15 @@
+{
+  "trainer_config": {
+    "epochs": 500,
+    "batch_size": 100,
+    "sr": 16000,
+    "duration": 1,
+    "name": "v1",
+    "figure_dir": "figure",
+    "device": "cuda:0"
+  },
+  "Scheduler": {
+    "epochs": 10,
+    "lr_factor": 0.8
+  }
+}
